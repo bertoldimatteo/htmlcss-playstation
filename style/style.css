@@ -85,7 +85,7 @@ head {
 /* /hero */
 
 /* playstation 5 section */
-.play5-section, .play4-section {
+.play5-section, .play4-section, .sconti-section {
     margin-top: 100px;
 }
 .col-title {
@@ -187,7 +187,7 @@ head {
 .playplus-section {
     background-color: #bebcbb;
 }
-.playplus-section .row {
+.playplus-section .row, .playnow-section .row {
     align-items: center;
     padding: 0 40px;
 }
@@ -212,19 +212,20 @@ head {
 
 /* sconti section */
 .row-three-sales-discount .col-12 {
-    display: flex;
-    padding: 100px 0;
+    padding: 50px 0;
+    text-align: center;
 } 
 .row-three-sales-discount img {
     width: 70%;
 }
-.pic-1 {
-    justify-content: flex-end;
-}
-.pic-2 {
-    justify-content: center;
-}
 /* /sconti section */
+
+/* playstation now section */
+.playnow-section {
+    background-color: #161c3b;
+    color: #fff;
+}
+/* /playstation now section */
 
 /* main */
 
