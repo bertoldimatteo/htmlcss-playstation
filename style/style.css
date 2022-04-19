@@ -45,7 +45,7 @@ head {
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    padding: 60px 30px;
+    padding: 60px 40px;
     display: flex;
     align-items: flex-end;
 }
@@ -70,13 +70,48 @@ head {
     text-align: center;
 }
 .hero-caroulser-img .row {
-    padding: 15px 30px;
+    padding: 18px 25px;
 }
 .hero-caroulser-img img {
     border-radius: 15px;
-    margin: 15px 0;
+    margin: 20px 0;
+    width: 90%;
 }
 /* /hero */
+/* playstation 5 section */
+.play5-section {
+    margin-top: 100px;
+}
+.col-title {
+    text-align: center;
+}
+.col-title small {
+    font-size: 18px;
+    color: #0273ce;
+    font-weight: 600;
+}
+.col-title h2, .col-play5-row-one h2 {
+    font-size: 50px;
+}
+.col-title span, .col-play5-row-one span {
+    display: block;
+    margin-top: 40px;
+    font-size: 28px;
+    color: #727272;
+    font-weight: 500;
+}
+.play5-row-two {
+    align-items: center;
+    padding: 0 40px;
+}
+.col-play5-row-one {
+    margin-top: 100px;
+}
+.play5-row-two button {
+    display: block;
+    margin-top: 40px;
+}
+/* /playstation 5 section */
 /* main */
 
 /* /main */
