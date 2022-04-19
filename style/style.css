@@ -40,6 +40,7 @@ head {
     font-size: 21px;
 }
 /* /head */
+
 /* hero */
 .hero {
     background-position: center;
@@ -49,13 +50,16 @@ head {
     padding: 60px 40px;
     display: flex;
     align-items: flex-end;
+    color: #fff;
+}
+.col-xl-3 {
+    width: 26%;
 }
 .hero img {
-    height: 40px;
+    width: 230px;
 }
 .hero-1 {
     background-image: url(../img/jumbo-bg.png);
-    color: #fff;
 }
 .hero h1 {
     font-size: 3.1rem;
@@ -76,9 +80,10 @@ head {
 .hero-caroulser-img img {
     border-radius: 15px;
     margin: 20px 0;
-    width: 90%;
+    width: 85%;
 }
 /* /hero */
+
 /* playstation 5 section */
 .play5-section {
     margin-top: 100px;
@@ -117,11 +122,49 @@ head {
 }
 .play5-row-five .col {
     text-align: center;
+    padding: 0;
 }
 .play5-row-five img {
     width: 40%;
 }
+.play5-row-five-title {
+    display: block;
+    max-width: 220px;
+    font-size: 23px;
+    font-weight: 500;
+    margin: auto;
+}
 /* /playstation 5 section */
+
+/* hero2 */
+.bg-color-dark {
+    background-color: #1f1f1f;
+}
+.hero-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    margin-top: 50px;
+}
+.hero-caroulser-img h3, .hero-caroulser-img h4, .hero-caroulser-img h5 {
+    color: #fff;
+    text-align: start;
+}
+.hero-caroulser-img h3, .hero-caroulser-img h4 {
+        margin: 30px 0 0 40px;
+}
+.hero-caroulser-img h3 {
+    font-size: 43px;
+}
+.hero-caroulser-img h4 {
+    font-size: 36px;
+}
+.hero-caroulser-img h5 {
+    max-width: 256px;
+    margin: auto;
+    font-size: 22px;
+    padding: 0 10px;
+}
+/* /hero2 */
+
 /* main */
 
 /* /main */
