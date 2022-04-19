@@ -67,11 +67,14 @@ head {
     margin: 16px 0;
 }
 .hero-caroulser-img {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+}
+.hero-caroulser-img .row {
+    padding: 15px 30px;
 }
 .hero-caroulser-img img {
-    width: 80%;
+    border-radius: 15px;
+    margin: 15px 0;
 }
 /* /hero */
 /* main */
