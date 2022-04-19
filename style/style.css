@@ -26,6 +26,16 @@ head {
     margin-right: 15px;
 
 }
+.log-in-btn {
+    border-radius: 25px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+.search-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 21px;
+}
 /* /head */
 
 /* main */
