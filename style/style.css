@@ -2,6 +2,10 @@
 head {
     position: fixed;
 }
+.btn {
+    border-radius: 25px;
+    font-weight: bold;
+}
 /* /commons */
 
 /* head */
@@ -27,9 +31,7 @@ head {
 
 }
 .log-in-btn {
-    border-radius: 25px;
     margin-right: 35px;
-    font-weight: bold;
 }
 .search-btn {
     background-color: transparent;
@@ -37,7 +39,34 @@ head {
     font-size: 21px;
 }
 /* /head */
-
+/* hero */
+.hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding: 60px 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.hero img {
+    height: 40px;
+}
+.hero-1 {
+    background-image: url(../img/jumbo-bg.png);
+    color: #fff;
+}
+.hero h1 {
+    font-size: 3.1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.hero-col > * {
+    margin: 16px 0;
+}
+/* /hero */
 /* main */
 
 /* /main */
