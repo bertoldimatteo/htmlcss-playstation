@@ -210,6 +210,22 @@ head {
 }
 /* /playstation plus section */
 
+/* sconti section */
+.row-three-sales-discount .col-12 {
+    display: flex;
+    padding: 100px 0;
+} 
+.row-three-sales-discount img {
+    width: 70%;
+}
+.pic-1 {
+    justify-content: flex-end;
+}
+.pic-2 {
+    justify-content: center;
+}
+/* /sconti section */
+
 /* main */
 
 /* /main */
