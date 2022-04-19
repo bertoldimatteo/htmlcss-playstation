@@ -1,15 +1,30 @@
 /* commons */
-
+head {
+    position: fixed;
+}
 /* /commons */
 
 /* head */
 .logo-container {
     display: flex;
     justify-content: flex-end;
+    z-index: 10;
 }
 .sony-logo {
     height: 15px;
     margin: 10px 0;
+}
+.navbar {
+    z-index: 9;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar-nav li a {
+    font-weight: 600;
+    font-size: 17px;
+    margin-right: 15px;
+
 }
 /* /head */
 
