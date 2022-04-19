@@ -85,7 +85,7 @@ head {
 /* /hero */
 
 /* playstation 5 section */
-.play5-section {
+.play5-section, .play4-section {
     margin-top: 100px;
 }
 .col-title {
@@ -96,10 +96,10 @@ head {
     color: #0273ce;
     font-weight: 600;
 }
-.col-title h2, .col-play5-row-one h2 {
+.col-title h2, .col-play5-row-one h2, .row-three-ps4 h2  {
     font-size: 50px;
 }
-.col-title span, .col-play5-row-one span {
+.col-title span, .col-play5-row-one span, .row-three-ps4 span {
     display: block;
     margin-top: 40px;
     font-size: 28px;
@@ -139,6 +139,7 @@ head {
 /* hero2 */
 .bg-color-dark {
     background-color: #1f1f1f;
+    padding-bottom: 100px;
 }
 .hero-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -165,6 +166,22 @@ head {
 }
 /* /hero2 */
 
+/* playstation 4 section */
+.col-title h2 small {
+    color: #000;
+    vertical-align: super;
+    font-size: 25px;
+}
+.row-three-ps4 {
+    padding: 80px 40px;
+}
+.row-three-ps4 .col-12 {
+    padding: 0 15px 40px 15px;
+}
+.btn-ps4 {
+    margin-top: 20px;
+}
+/* /playstation 4 section */
 /* main */
 
 /* /main */
