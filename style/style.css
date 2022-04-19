@@ -66,6 +66,13 @@ head {
 .hero-col > * {
     margin: 16px 0;
 }
+.hero-caroulser-img {
+    display: flex;
+    justify-content: center;
+}
+.hero-caroulser-img img {
+    width: 80%;
+}
 /* /hero */
 /* main */
 
