@@ -5,6 +5,7 @@ head {
 .btn {
     border-radius: 25px;
     font-weight: bold;
+    padding: 10px 15px
 }
 /* /commons */
 
@@ -110,6 +111,15 @@ head {
 .play5-row-two button {
     display: block;
     margin-top: 40px;
+}
+.play5-row-five {
+    padding: 30px 0 ;
+}
+.play5-row-five .col {
+    text-align: center;
+}
+.play5-row-five img {
+    width: 50%;
 }
 /* /playstation 5 section */
 /* main */
