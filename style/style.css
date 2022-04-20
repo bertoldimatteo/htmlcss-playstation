@@ -100,7 +100,7 @@ header {
     margin: 20px 0;
     width: 80%;
 }
-.hero-caroulser-img img:hover {
+.col-hero-1 img:hover {
     position: relative;
     top: -30px;
 }
