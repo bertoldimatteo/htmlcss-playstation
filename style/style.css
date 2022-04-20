@@ -1,6 +1,10 @@
 /* commons */
-head {
+header {
     position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 .btn {
     border-radius: 25px;
@@ -60,6 +64,7 @@ head {
 }
 .hero-1 {
     background-image: url(../img/jumbo-bg.png);
+    margin-top: 111px;
 }
 .hero h1 {
     font-size: 3.1rem;
