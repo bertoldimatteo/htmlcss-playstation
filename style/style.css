@@ -9,7 +9,7 @@ header {
 .btn {
     border-radius: 25px;
     font-weight: bold;
-    padding: 10px 15px
+    padding: 8px 15px
 }
 /* /commons */
 
@@ -42,6 +42,10 @@ header {
     background-color: transparent;
     border: none;
     font-size: 21px;
+}
+.log-in-btn:hover {
+    outline-offset: 3px;
+    outline: 2px solid black;
 }
 /* /head */
 
@@ -82,6 +86,7 @@ header {
     max-width: 2100px;
     justify-content: space-between;
     text-align: center;
+    margin-top: 50px;
 }
 .img-1 {
     outline-offset: 3px;
@@ -94,6 +99,10 @@ header {
     border-radius: 15px;
     margin: 20px 0;
     width: 80%;
+}
+.hero-caroulser-img img:hover {
+    position: relative;
+    top: -30px;
 }
 /* /hero */
 
@@ -149,12 +158,21 @@ header {
     font-weight: 500;
     margin: auto;
 }
+.btn-ps5:hover {
+    outline-offset: 3px;
+    outline: 2px solid #0273ce;
+}
 .play5-active {
     outline-offset: 3px;
     border-bottom: 3px solid #4095da;
 }
 .unactive {
     opacity: 0.5;
+}
+.unactive:hover {
+    opacity: 1;
+    outline-offset: 3px;
+    border-bottom: 3px solid #4095da;
 }
 /* /playstation 5 section */
 
