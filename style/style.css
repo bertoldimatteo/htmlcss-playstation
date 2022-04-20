@@ -96,10 +96,10 @@ head {
     color: #0273ce;
     font-weight: 600;
 }
-.col-title h2, .col-play5-row-one h2, .row-three-ps4 h2  {
+.col-title h2, .col-play5-row-one h2  {
     font-size: 50px;
 }
-.col-title span, .col-play5-row-one span, .row-three-ps4 span {
+.col-title span, .col-play5-row-one span {
     display: block;
     margin-top: 40px;
     font-size: 28px;
@@ -177,6 +177,14 @@ head {
 }
 .row-three-ps4 .col-12 {
     padding: 0 15px 40px 15px;
+}
+.row-three-ps4 h2 {
+    font-size: 40px;
+}
+.row-three-ps4 span {
+    display: block;
+    font-size: 29px;
+    color: #727272;
 }
 .btn-ps4 {
     margin-top: 20px;
