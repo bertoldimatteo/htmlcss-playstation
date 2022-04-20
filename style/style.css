@@ -45,6 +45,8 @@ header {
 }
 /* /head */
 
+/* main */
+
 /* hero */
 .hero {
     background-position: center;
@@ -259,7 +261,15 @@ header {
 }
 /* /social media section */
 
-/* main */
+/* footer */
+footer {
+    background-color: #00439c;
+    color: #fff;
+}
+.play-language  {
+    width: 20px;
+}
+/* /footer */
 
 /* /main */
 
