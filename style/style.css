@@ -79,7 +79,8 @@ header {
     margin: 16px 0;
 }
 .hero-caroulser-img {
-    text-align: center;
+    max-width: 1800px;
+    justify-content: space-between;
 }
 .hero-caroulser-img .row {
     padding: 18px 25px;
@@ -87,7 +88,7 @@ header {
 .hero-caroulser-img img {
     border-radius: 15px;
     margin: 20px 0;
-    width: 85%;
+    width: 80%;
 }
 /* /hero */
 
@@ -183,15 +184,16 @@ header {
     padding: 80px 40px;
 }
 .row-three-ps4 .col-12 {
-    padding: 0 15px 40px 15px;
+    padding: 20px 15px 40px 15px;
 }
 .row-three-ps4 h2 {
     font-size: 40px;
 }
 .row-three-ps4 span {
     display: block;
-    font-size: 29px;
+    font-size: 28px;
     color: #727272;
+    font-weight: 500;
 }
 .btn-ps4 {
     margin-top: 20px;
