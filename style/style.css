@@ -82,6 +82,10 @@ header {
     max-width: 1800px;
     justify-content: space-between;
 }
+.img-1 {
+    outline-offset: 3px;
+    outline: 2px solid #3f94da;
+}
 .hero-caroulser-img .row {
     padding: 18px 25px;
 }
