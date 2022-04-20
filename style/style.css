@@ -269,6 +269,7 @@ footer {
 }
 .footer-first {
     align-items: center;
+    padding-left: 40px;
 }
 .play-language  {
     width: 20px;
@@ -281,6 +282,21 @@ footer {
 }
 .footer-ul a {
     text-decoration: none;
+    color: #fff;
+}
+.footer-first .col-md-6 {
+    margin: 30px 0;
+}
+.footer-last {
+    padding: 20px 0 0 40px;
+}
+.sony-footer-logo {
+    width: 150px;
+}
+.footer-last p {
+    padding-top: 30px;
+}
+.footer-last a {
     color: #fff;
 }
 /* /footer */
