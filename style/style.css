@@ -79,12 +79,13 @@ header {
     margin: 16px 0;
 }
 .hero-caroulser-img {
-    max-width: 1800px;
+    max-width: 2100px;
     justify-content: space-between;
+    text-align: center;
 }
 .img-1 {
     outline-offset: 3px;
-    outline: 2px solid #3f94da;
+    outline: 3px solid #3f94da;
 }
 .hero-caroulser-img .row {
     padding: 18px 25px;
@@ -118,6 +119,9 @@ header {
     color: #727272;
     font-weight: 500;
 }
+.container-ps5-product {
+    max-width: 1800px;
+}
 .play5-row-two {
     align-items: center;
     padding: 0 40px;
@@ -130,14 +134,13 @@ header {
     margin-top: 40px;
 }
 .play5-row-five {
-    padding: 30px 0 ;
+    padding: 30px 0;
 }
 .play5-row-five .col {
     text-align: center;
-    padding: 0;
 }
 .play5-row-five img {
-    width: 40%;
+    width: 50%;
 }
 .play5-row-five-title {
     display: block;
@@ -145,6 +148,13 @@ header {
     font-size: 23px;
     font-weight: 500;
     margin: auto;
+}
+.play5-active {
+    outline-offset: 3px;
+    border-bottom: 3px solid #4095da;
+}
+.unactive {
+    opacity: 0.5;
 }
 /* /playstation 5 section */
 
