@@ -160,6 +160,9 @@ header {
     font-weight: 500;
     margin: auto;
 }
+.play5-active, .unactive {
+    max-height: 300px;
+}
 .btn-ps5:hover {
     outline-offset: 3px;
     outline: 2px solid #0273ce;
@@ -167,9 +170,12 @@ header {
 .play5-active {
     outline-offset: 3px;
     border-bottom: 3px solid #4095da;
+    height: 100%;
 }
 .unactive {
     opacity: 0.5;
+    border-bottom: 3px solid transparent;
+    height: 100%;
 }
 .unactive:hover {
     opacity: 1;
