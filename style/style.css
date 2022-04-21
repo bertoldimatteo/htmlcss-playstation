@@ -6,13 +6,43 @@ header {
     left: 0;
     z-index: 10;
 }
+/* /commons */
+
+/* buttons */
 .btn {
     border-radius: 25px;
     font-weight: bold;
     padding: 8px 15px;
     border: 2px solid transparent;
 }
-/* /commons */
+.search-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 21px;
+}
+.log-in-btn:hover, .btn-choose:hover {
+    box-shadow: inset 0px 0px 0px 2px #fff;
+}
+.log-in-btn:hover {
+    border: 2px solid #000;
+}
+.btn-hero:hover, .btn-now:hover {
+    box-shadow: inset 0px 0px 0px 2px #000;
+}
+.btn-hero:hover {
+    border: 2px solid #cd3d0f;
+}
+.btn-choose:hover {
+    border: 2px solid #2d64e6;
+}
+.btn-link {
+    text-decoration: none;
+    background-color: #d9dadc;
+}
+.btn-now:hover {
+    border: 2px solid #fff;
+}
+/* /buttons */
 
 /* head */
 .logo-container {
@@ -23,9 +53,6 @@ header {
 .sony-logo {
     height: 15px;
     margin: 10px 0;
-}
-.navbar {
-    z-index: 9;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #000;
@@ -39,16 +66,9 @@ header {
 .log-in-btn {
     margin-right: 35px;
 }
-.search-btn {
-    background-color: transparent;
-    border: none;
-    font-size: 21px;
-}
-.log-in-btn:hover {
-    border: 2px solid #000;
-    box-shadow: inset 0px 0px 0px 2px #fff;
-}
 /* /head */
+
+/* body */
 
 /* main */
 
@@ -89,8 +109,10 @@ header {
     text-align: center;
     margin-top: 50px;
 }
-.img-1 {
+.img-1, .play5-active, .unactive:hover {
     outline-offset: 3px;
+}
+.img-1 {
     outline: 3px solid #3f94da;
 }
 .hero-caroulser-img .row {
@@ -107,17 +129,13 @@ header {
     top: -30px;
     transition: all .2s ease-in-out;
 }
-.btn-hero:hover {
-    border: 2px solid #cd3d0f;
-    box-shadow: inset 0px 0px 0px 2px #000;
-}
 /* /hero */
 
 /* playstation 5 section */
 .play5-section, .play4-section, .sconti-section {
     margin-top: 100px;
 }
-.col-title {
+.col-title, .play5-row-five .col {
     text-align: center;
 }
 .col-title small {
@@ -128,12 +146,15 @@ header {
 .col-title h2, .col-play5-row-one h2  {
     font-size: 50px;
 }
-.col-title span, .col-play5-row-one span {
+.col-title span, .col-play5-row-one span, .row-three-ps4 span {
     display: block;
     margin-top: 40px;
     font-size: 28px;
     color: #727272;
     font-weight: 500;
+}
+.col-title span, .col-play5-row-one span {
+    margin-top: 40px;
 }
 .container-ps5-product {
     max-width: 1800px;
@@ -152,9 +173,6 @@ header {
 .play5-row-five {
     padding: 30px 0;
 }
-.play5-row-five .col {
-    text-align: center;
-}
 .play5-row-five img {
     width: 50%;
 }
@@ -168,24 +186,18 @@ header {
 .play5-active, .unactive {
     max-height: 300px;
 }
-.btn-choose:hover {
-    border: 2px solid #2d64e6;
-    box-shadow: inset 0px 0px 0px 2px #fff;
-}
-.play5-active {
-    outline-offset: 3px;
+.play5-active, .unactive:hover {
     border-bottom: 3px solid #4095da;
+}
+.play5-active, .unactive {
     height: 100%;
 }
 .unactive {
     opacity: 0.5;
     border-bottom: 3px solid transparent;
-    height: 100%;
 }
 .unactive:hover {
     opacity: 1;
-    outline-offset: 3px;
-    border-bottom: 3px solid #4095da;
 }
 /* /playstation 5 section */
 
@@ -203,7 +215,7 @@ header {
     text-align: start;
 }
 .hero-caroulser-img h3, .hero-caroulser-img h4 {
-        margin: 30px 0 0 40px;
+    margin: 30px 0 0 40px;
 }
 .hero-caroulser-img h3 {
     font-size: 43px;
@@ -234,12 +246,6 @@ header {
 .row-three-ps4 h2 {
     font-size: 40px;
 }
-.row-three-ps4 span {
-    display: block;
-    font-size: 28px;
-    color: #727272;
-    font-weight: 500;
-}
 .btn-ps4 {
     margin-top: 20px;
 }
@@ -266,10 +272,6 @@ header {
 .playplus-row-2 img {
     width: 80%;
 }
-.btn-link {
-    text-decoration: none;
-    background-color: #d9dadc;
-}
 /* /playstation plus section */
 
 /* sconti section */
@@ -286,10 +288,6 @@ header {
 .playnow-section {
     background-color: #161c3b;
     color: #fff;
-}
-.btn-now:hover {
-    border: 2px solid #fff;
-    box-shadow: inset 0px 0px 0px 2px #000;
 }
 /* /playstation now section */
 
@@ -322,7 +320,7 @@ footer {
     align-items: center;
     padding-left: 40px;
 }
-.play-language  {
+.play-language {
     width: 20px;
     display: inline-block;
     margin-top: 50px;
@@ -353,7 +351,5 @@ footer {
 /* /footer */
 
 /* /main */
-
-/* body */
 
 /* /body */
